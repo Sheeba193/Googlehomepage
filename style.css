@@ -15,7 +15,7 @@ nav{
     align-items: center;
     justify-content: flex-end;
     margin-right: 30px;
-    margin-top: 14px;
+    margin-top: 5px;
 }
 nav a{
     font-size: 13px;
@@ -71,7 +71,7 @@ nav img:hover{
     width: 580px;
     margin: 0 auto;
     position: relative;
-    margin-top: -80px;
+    margin-top: -100px;
     text-align: center;
 }
 .search-box .search-input{
@@ -97,36 +97,61 @@ nav img:hover{
                 0 0 2px rgba(0, 0, 0, 0.05) ;
 
 }
-.search-box .search-icon{
-    width: 20px;
-    opacity: 0.4;
+.icons{
     position: absolute;
-    top: 13px;
-    right: 14px;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    pointer-events: none;
+    padding-top: 25px;
+    padding-left: 10px;
+    height: 7px;
 }
-.search-box .voice-icon{
-    width: 14px;
-    /* opacity: 0.4; */
-    position: absolute;
-    top: 13px;
-    right: 24px;
+.icons .search-icon{
+    padding-right: 30px;
 }
+
+.buttons{
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .search-button{
     border: 1px solid transparent;
-    background-color: #fff;
+    background-color: #f8fafc;
     padding: 9px 15px;
     color: #6e6868;
     font-size: 14px;
-    display: inline-block;
     margin-right: 10px;
-    margin-top: 28px;
+    margin-top: 15px;
     outline: none;
     cursor: pointer;
-    /* transition: border-color 100ms; */
 }
 .search-button:hover{
-    box-shadow: 0 0 0 1px #5f6368 inset;
+    box-shadow: 0 0 0 2px #5f6368;
     /* border: 1px solid #6e6868; */
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05) ;
+
 }
 .lang{
     margin-top: 30px;
@@ -165,14 +190,22 @@ footer a:hover{
 .links{
     border-top: 1px solid #ddd;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 30px;
 }
-.links-1{
+/* .links-1{
     padding-left: 18.7px;
     flex: 1;
 }
+/* .links-2{
+   text-align: center;
+} */
 .links-2{
-    padding-right: 18.7px;
-}
+    /* padding-right: 18.7px; */
+    margin-right: 180px;
+} 
    
 
 
