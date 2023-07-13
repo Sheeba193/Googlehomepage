@@ -64,8 +64,8 @@ nav img:hover{
 .section-1 .logo{
     display: block;
     margin: 0 auto;
-    margin-top: 23px;
-    height: 35vh;
+    margin-top: 15px;
+    height: 30vh;
 }
 .search-box{
     width: 580px;
@@ -206,6 +206,61 @@ footer a:hover{
     /* padding-right: 18.7px; */
     margin-right: 180px;
 } 
+
+@media (max-width: 950px ) {
+  body {
+    margin: 0;
+  }
+
+  nav {
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  form {
+    margin: 1rem;
+  }
+  .search-box {
+    width: 100%;
+    margin-top: -80px;
+  }
+
+  .search-box .search-input {
+    padding-left: 30px;
+  }
+
+  .buttons {
+    margin: 0 5px;
+  }
+
+  .search-button {
+    margin-top: 10px;
+  }
+
+  .lang {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  footer h4 {
+    padding-left: 0;
+  }
+
+  .links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .links-2 {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
    
 
 
